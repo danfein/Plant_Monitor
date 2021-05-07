@@ -8,6 +8,7 @@ i2c backback on 2 line LCD
 #include "SparkFunHTU21D.h"
 #include <LiquidCrystal_I2C.h>
 
+
 //Create an instance of the object
 HTU21D myHumidity;
 LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Set the LCD I2C address
